@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="109340" started-at="2017-01-10T05:01:47Z" finished-at="2017-01-10T05:03:36Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="109340" started-at="2017-01-10T05:01:47Z" finished-at="2017-01-10T05:03:36Z">
+      <class name="socialtrade.Business">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:socialtrade.Business@7f63425a]" name="beforeTest" is-config="true" duration-ms="8" started-at="2017-01-10T10:31:47Z" finished-at="2017-01-10T10:31:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="busin(java.lang.String, java.lang.String)[pri:0, instance:socialtrade.Business@7f63425a]" name="busin" duration-ms="109328" started-at="2017-01-10T10:31:47Z" data-provider="getUser" finished-at="2017-01-10T10:33:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[61984244]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[akshya@1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- busin -->
+        <test-method status="PASS" signature="busin(java.lang.String, java.lang.String)[pri:0, instance:socialtrade.Business@7f63425a]" name="busin" duration-ms="101940" started-at="2017-01-10T10:31:47Z" data-provider="getUser" finished-at="2017-01-10T10:33:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[62209933]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[akshya@1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- busin -->
+      </class> <!-- socialtrade.Business -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
